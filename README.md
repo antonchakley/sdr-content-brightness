@@ -1,9 +1,32 @@
 
-Lightweight Windows tray app to control SDR content brightness in HDR mode
+### 🔆 Lightweight Windows tray app to control SDR content brightness in HDR mode 
 
 
-Inline-style: 
-![alt text](https://github.com/antonchakley/sdr-content-brightness/blob/main/screenshot.png "Logo Title Text 1")
+
+Modern Windows versions have good support for SDR content in HDR mode, with color clamping and the ability to tune SDR content brightness, so many people with HDR monitors prefer not to switch between HDR and SDR modes constantly and instead use HDR mode for everything.
+
+However, in HDR mode monitors usually lock brightness controls and the Windows SDR content brightness slider is buried deep in the settings app, which makes it annoying to access.
 
 
-<img src="[https://i.imgur.com/ZWnhY9T.png](https://github.com/antonchakley/sdr-content-brightness/blob/main/screenshot.png)" width=50%>
+
+
+I believe brightness control should be as easily accessible as audio volume control, because room lighting can change dramatically, so you want the screen brightness to be adjusted as well. This will keep your eyes comfortable,  not blinded by excessive brightness at nighttime, nor strained from trying to read on a low brightness screen in a sunny room.
+
+
+There are already a few brightness control apps on GitHub, so why another one?
+
+* This uses an (undocumented) Windows SDR contrent brightness boost function, so it won't mess with your monitor brightness. It affects only SDR in HDR content brightness, so your HDR games and movies will still be using full monitor brightness as they should.
+
+* It is made intentionally simple, just a brightness icon and slider in the Windows 11 style, with no UI clutter, no popups, or anything else that could distract you
+
+* It is very lightweight, written in plain C++ and uses only a few KBs of your precious memory
+
+* It supports Windows themes and works fine in both dark and bright Windows themes, and it uses Windows accent colors so it feels  in place with your OS.
+
+* It supports DPI scaling, so it should look sized right on high-DPI monitors (which modern HDR monitors usually are).
+<p align="center">
+
+
+<img src="https://github.com/antonchakley/sdr-content-brightness/blob/main/screenshot.png" width=50%  >
+
+</p>
