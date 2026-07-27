@@ -30,3 +30,5 @@ There are already a few brightness control apps on GitHub, so why another one?
 <img src="https://github.com/antonchakley/sdr-content-brightness/blob/main/screenshot.png" width=50%  >
 
 </p>
+
+It has an autorun feature in the tray icon right-click context menu, if you want the app to start automatically. If you move the executable file to another location on your disk, just uncheck the autorun menu item and check it again, so the path in the registry gets updated.
