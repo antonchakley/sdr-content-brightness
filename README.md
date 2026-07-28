@@ -15,7 +15,7 @@ I believe brightness control should be as easily accessible as audio volume cont
 
 There are already a few brightness control apps on GitHub, so why another one?
 
-* This uses an (undocumented) Windows SDR contrent brightness boost function, so it won't mess with your monitor brightness. It affects only SDR content brightness in HDR mode — the same brightness you'd set in Windows settings, so your HDR games and movies will still be using full monitor brightness as they should.
+* This uses an (undocumented) Windows SDR contrent brightness boost function, so it won't mess with your real monitor brightness. It affects only SDR content brightness in HDR mode — the same brightness you'd set in Windows settings, so your HDR games and movies will still be using full monitor brightness as they should.
 
 * It is made intentionally simple, just a brightness icon and slider in the Windows 11 style, with no UI clutter, no popups, or anything else that could distract you
 
