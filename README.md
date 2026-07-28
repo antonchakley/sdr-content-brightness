@@ -21,7 +21,7 @@ There are already a few brightness control apps on GitHub, so why another one?
 
 * It is very lightweight, written in plain C++ and uses only a few KBs of your precious memory
 
-* It supports Windows themes and looks good with both dark and bright Windows themes, and it uses Windows accent colors so it feels  in place with your OS.
+* It supports Windows themes and looks good with both dark and bright Windows themes, and it uses Windows accent color from theme so it feels  in place with your OS.
 
 * It supports DPI scaling, so it should look clean on high-DPI monitors (which modern HDR monitors usually are).
 <p align="center">
